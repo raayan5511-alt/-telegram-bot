@@ -6,9 +6,7 @@ TOKEN = "8682561865:AAGhR0mcDvKVnY7xRL5fXKKbxKYXLUksvGo"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("🚀 البوت شغال داخل القروب")
 
-async def signal(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("📊 إشارة: شراء SPX عند 5120")
-
+async def signal(update: Update, context: ContextTypes.DEFAULT_TYPE)
 async def news(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("📰 أخبار السوق: ترقب بيانات اقتصادية")
 
